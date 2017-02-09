@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.}7.12'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.0'
+    testCompile 'junit:junit:4.12'
+}
